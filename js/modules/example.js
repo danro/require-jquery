@@ -5,7 +5,7 @@ define([
 
 function($) {
   
-  var instance = {
+  var module = {
     hello: greeting
   };
   
@@ -13,5 +13,5 @@ function($) {
     $("body").beta();
   }
 
-  return instance;
+  return module;
 });
