@@ -5,13 +5,11 @@ define([
 
 function($) {
   
-  var module = {
-    hello: greeting
-  };
-  
-  function greeting() {
+  // private methods
+  function init() {
     $("body").beta();
   }
-
-  return module;
+  
+  // return exposed module
+  return { init: init };
 });
