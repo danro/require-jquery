@@ -5,9 +5,9 @@ require([
 ],
   
 function($, alpha, example) {
-  // jquery + plugins + modules + domReady.
+  // jquery + plugins + modules + dom ready.
   $(function() {
       $("body").alpha();
-      example.hello();
+      example.init();
   });
 });
