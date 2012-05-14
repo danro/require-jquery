@@ -1,13 +1,14 @@
 require([
-  "jquery",
-  "plugins/jquery.alpha",
-  "modules/example"
+	"jquery",
+	"modules/example",
+	"plugins/jquery.alpha"
 ],
-  
-function($, alpha, example) {
-  // jquery + plugins + modules + dom ready.
-  $(function() {
-      $("body").alpha();
-      example.init();
-  });
+	
+function($, example) {
+	
+	// jquery + modules have loaded, handle DOM ready event.
+	$(function() {
+			$("body").alpha();
+			example.init();
+	});
 });
