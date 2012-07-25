@@ -8,4 +8,4 @@ min:
 	
 jquery:
 	@node build/bin/r.js -o baseUrl=. name=require-jquery out=require-jquery-min.js
-	@echo "[ jquery has been minified ]"
+	@echo "[ require-jquery has been minified ]"
